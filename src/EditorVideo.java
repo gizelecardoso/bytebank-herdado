@@ -1,0 +1,10 @@
+//Gerente eh um funcionário, Gerente herda da class Funcioário
+public class EditorVideo extends Funcionario {
+	
+	public double getBonificacao() {
+		System.out.println("Chamando o método de bonificacao do EDITOR DE VÍDEO");
+		return 150;
+		
+	}
+	
+}
